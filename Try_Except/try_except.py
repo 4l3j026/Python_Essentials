@@ -10,19 +10,19 @@ try:
   
   result = dividend / divisor
   
-except ZeroDivisionError as a: 
+except ZeroDivisionError as e: 
     
-    print(a) 
+    print(e) 
     print("The division can't resolve if divisor is 0")
    
-except ValueError as a: 
+except ValueError as e: 
     
-    print(a)
+    print(e)
     print("Wrong value")
 
-except Exception as a: #This block is not a good practice 
+except Exception as e: #Only use this block is not a good practice 
     
-    print(a)
+    print(e)
     print("Something went wrong!") 
     
 else:
@@ -30,4 +30,4 @@ else:
     
 finally: 
     
-    print("Remember always keep learn!!!")
+    print("\n\n Remember always keep learn!!! \n\n")
