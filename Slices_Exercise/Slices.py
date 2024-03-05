@@ -17,4 +17,4 @@ print(list_3[1:4])
 
 print(list_3[0:5:2])
 
-print(list_3[5:0:-1])
+print(list_3[5:1:-1])
