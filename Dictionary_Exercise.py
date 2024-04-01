@@ -51,6 +51,6 @@ def main():
             print("The entered value is not valid!")
 
 
-if __name__ == "__main__":
+if __name__ == "__main__": #Important python line to use main function
 
     main()
